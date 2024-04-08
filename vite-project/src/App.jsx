@@ -28,14 +28,14 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Loginform setLoggedIn={setLoggedIn} />
-      {loggedIn && ( */}
+       <Loginform setLoggedIn={setLoggedIn} />
+      {loggedIn && (
         <div>
           <Contact />
           <Contactlist contacts={contacts} removeContact={removeContact} updateContact={updateContact} />
           <Addcontact addContact={addContact} />
         </div>
-      {/* )} */}
+      )}
     </div>
   );
 }
